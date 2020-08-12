@@ -1,5 +1,3 @@
-# This project is a Frontend Assessment by FullThrottle Labs.
-
 ## Setup the project
 
 1. Clone the project.
@@ -19,7 +17,3 @@ It also consists of a **Calender View** toggle option to view the active period 
 2. **react-bootstrap**: For styling of the Navbar, button , modal.
 3. **react-calender**: To show the calender view of the active perids dates.
 4. **@material-ui/icons**: To add the material icons in the app.
-
-## Note to reviewer:
-
-I have used **react-calender** to show the calender view of the user active dates. I have looked into the docs but didn't get any lead to diplay multiple dates on the calender. So, I ended up diplaying the range of the last 2 active periods.
