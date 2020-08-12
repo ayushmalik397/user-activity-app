@@ -1,0 +1,76 @@
+.users-page {
+  margin-top: 50px;
+  min-height: 90vh;
+}
+
+.list-users {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.user {
+  text-align: left;
+  width: 300px;
+  height: 120px;
+  margin: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(218, 241, 239, 0.9108018207282913) 0%,
+    rgba(232, 241, 238, 1) 100%
+  );
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.id {
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
+.head,
+.g-name,
+.g-tz {
+  font-weight: 700;
+}
+
+.g-details {
+  font-size: 1.9vh;
+}
+
+.g-name-value,
+.g-tz-value {
+  font-weight: 400;
+}
+
+.g-tz {
+  margin-top: -15px;
+}
+
+.modal-pos {
+  margin-top: 7vh;
+}
+
+.cal-btn {
+  margin-bottom: 10px;
+}
+
+.date-calender {
+  height: 1px;
+}
+
+.arrow {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.loader {
+  margin-top: 10vh;
+}
