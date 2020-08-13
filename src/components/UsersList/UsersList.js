@@ -4,7 +4,7 @@ import "./UsersList.css";
 import spin from "./Spin.gif";
 import UserModal from "../Modal/UserModal";
 
-function BodyComponent() {
+function UsersList() {
   const [members, changeMembers] = useState([]);
   const [show, setShow] = useState(false);
   const [user, changeUser] = useState([]);
@@ -13,18 +13,26 @@ function BodyComponent() {
 
   useEffect(() => {
     async function fetchMembers() {
-      let res = await axios.get("http://localhost:3004/members");
-      changeMembers(res.data);
+      let res = await axios.get(
+        "https://activity-backend-app.web.app/members",
+        {
+          headers: { "Access-Control-Allow-Origin": "*" },
+        }
+      );
+      changeMembers(res.data.members);
       setLoading(false);
     }
     fetchMembers();
   }, []);
 
   async function openUser(id) {
-    let res = await axios.get("http://localhost:3004/members/" + id);
+    let res = await axios.get(
+      "https://activity-backend-app.web.app/members/" + id
+    );
     changeUser(res.data);
     setShow(true);
   }
+
   const handleClose = () => {
     setCalender(false);
     setShow(false);
@@ -76,4 +84,4 @@ function BodyComponent() {
   );
 }
 
-export default BodyComponent;
+export default UsersList;
