@@ -6,10 +6,10 @@
 
 ## About the Project
 
-The project is to showcase a list of users with details like Id, Name, Time Zone, Active Periods.
-The home page displays the list of users.
-On clicking on any user, a modal will appear displayes the details of the user and the list of the active periods.
-It also consists of a **Calender View** toggle option to view the active period of the use on the calender.
+- The project is to showcase a list of users with details like Id, Name, Time Zone, Active Periods.
+- The home page displays the list of users.
+- On clicking on any user, a modal will appear which will display the details of the user and the list of the active periods.
+- The Modal will consists of a **Calender View** toggle option to view the active period of the use on the calender.
 
 ## Libraries used
 
