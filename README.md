@@ -20,5 +20,5 @@ It also consists of a **Calender View** toggle option to view the active period 
 
 ## Note to reviewers
 
-1. For the Mock API server, I am using another repo https://github.com/ayushmalik397/user-activity-app which also I have hosted on firebase. To access the sample jsonData use URL: https://activity-backend-app.web.app/members/
+1. For the Mock API server, I am using another repo https://github.com/ayushmalik397/user-activity-backend which also I have hosted on firebase. To access the sample jsonData use URL: https://activity-backend-app.web.app/members/
 2. For the calender view, I have used the **react-calender**. I was looking for any way to highlight multiple dates but it does't have any supprot for this. So, I ended up highlighting the range of the last 2 active periods dates.
